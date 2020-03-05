@@ -12,7 +12,7 @@ depend:
 commands:
   pshop:
     description: Open Tokens Shop
-    aliases: [ts]
+    aliases: [tkshop]
 permissions:
   tokenshop:
     default: true
