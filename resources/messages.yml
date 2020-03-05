@@ -1,0 +1,33 @@
+message-version: 5
+Titles:
+  Items: "§l§aFeautures" # Title on the Items Section                    (All of these three things can have colors using the "§" Symbol!)
+  Amount: "" # Title on the Buying area with Sliders and Things!
+Messages:
+  Survival: "You must Be in Survival Mode to use the Shop!" # Message for when player is in creative and shop is set to survival only
+  ExitButton: "§c§lBACK" # Button for Item Category
+  Category_ExitButton: "§c§lEXIT" # Button for Exiting Plugin!
+  Input: "§aAmount" # The Words above the Input Amount!
+  # You can use {price here now!}
+  Each: "\n§a{price} tokens" # Signs for the Buttons like Steak 4(point Each) that is the part it changes
+
+  # You can add {sell} here For Showing the Sell Price of the Item.
+  BuySell: "" # The words next to the Toggle Switch
+
+  # You can Also add {sell} to here if you prefer it in the message up top.
+  Information: "\n§8--------------------------\n\n§r§b» §rWant to buy this item ???\n§r§b» §rItem Name:§b {item}\n§r§b» §rItem Price:§b {cost} tokens\n\n§8--------------------------"
+  ## You can use {amount}, {item} and {cost} here.
+  Paid_for: "§8[§b!§8]§r You Bought §b{amount}x {item}§r for §b{cost}"
+  ## You can use {amount}, {item}, {cost}, and {missing} here.
+  Not_enough_money: "§8[§b!§8]§r You Tried to Buy §b{amount} {item}§r for §b{cost} §rbut were missing §b{missing} tokens"
+  Not_enough_money_command: "§8[§c!§8]§r You don't have enough tokens to buy this!"
+  Paid: "§8[§b!§8]§r You Sold §b{amount}§7]§r of§b {item}§r for §b{pay}"
+  Not_enough_items: "§8[§c!§8]§r You tried to sell§c {amount}§r of§c {item}§r for§c {pay} §rbut didn't have enough Items!"
+  Thanks: "§8[§b!§8]§r You Leave the tokens Shop!" # Message sent on Item Buy!
+  Thanks2: "§8[§b!§8]§r You Leave the tokens Shop!" #Message sent on Shop Close!
+  cmd_confirm: "§r§b» §rPress §aSubmit§r to buy this"
+  yes: "§a§lSubmit"
+  no: "§c§lClose"
+  command_buy_cancel: "§7[§b!§7]§r§b You canceled the Transaction!"
+  NoPermission: "§7[§b!§7]§r§b You don't have Permission to Use that Shop!"
+  ShopError: "§7[§b!§7]§r§b That Shop Does Not exist!"
+  BannedinWorld: "§7[§b!§7]§r§b That Command Has Been banned in this World"
