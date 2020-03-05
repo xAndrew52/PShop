@@ -1,0 +1,61 @@
+## DO NOT TOUCH (This is for Updates only!)
+shop-version: 4
+# DO NOT TOUCH ^^^^^
+
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# 
+# 
+#======================================================================================================
+
+shop: 
+  0:
+    Name: "Tags\nTap to Open category:"
+    Items:
+      - "cmd:§a#§2Alien§7 Tag:8:Console:setuperm {player} tags.alien:"
+      - "cmd:§d#§5U§dw§5U §7Tag:10:Console:setuperm {player} tags.uwu:"
+      - "cmd:§1#§9Dragon §7Tag:10:Console:setuperm {player} tags.dragon:"
+      - "cmd:§3#§bHacker §7Tag:10:Console:setuperm {player} tags.hacker:"
+      - "cmd:§5#§dED §7Tag:20:Console:setuperm {player} tags.ed:"
+      - "cmd:§6#§eHunter §7Tag:20:Console:setuperm {player} tags.hunter:"
+      - "cmd:§2#§aOG §7Tag:25:Console:setuperm {player} tags.og:"
+  1:
+    Name: "Masks\nTap to Open category:"
+    Items:
+      - "397:6:1:15:1:§cT§ro§cl§ro §7Mask:"
+      - "397:7:1:25:1:§2Boo§aga §7Mask:"
+      - "397:4:1:40:1:§aCrepper §7Mask:"
+      - "397:3:1:60:1:§cCriminal §7Mask:"
+      - "397:5:1:100:1:§9Dragon §7Mask:"
+  2:
+    Name: "Ranks\nTap to Open category:"
+    Items:
+      - "cmd:§ePremium §7Rank:25:Console:setgroup {player} premium:" 
+  3:
+    Name: "Permissions\nTap to Open category:"
+    Items:
+      - "cmd:§ePremium §7Mine:20:Console:setuperm {player} mine.premium:"      
